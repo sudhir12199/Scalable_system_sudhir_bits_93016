@@ -1,0 +1,22 @@
+
+
+ACEest_Fitness
+
+GIT COMMANDS TO EXECUTE THE CODE
+git init
+git add .
+git commit -m "Initial commit - ACEest_Fitness base"
+git branch -M main
+git remote add origin https://github.com/sudhir/ACEest_Fitness.git
+git push -u origin main
+
+git add ACEest_Fitness-V1.1.py
+git commit -m "v1.1 - feature X"
+git tag -a v1.1 -m "v1.1"
+git push origin main --tags
+
+git add ACEest_Fitness-V1.2.py
+git commit -m "v1.2 - feature Y"
+git tag -a v1.2 -m "v1.2"
+git push origin main --tags
+
