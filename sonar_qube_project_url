@@ -1,0 +1,5 @@
+sonar-scanner \
+  -Dsonar.projectKey=ACEest_Fitness \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://<SONAR_HOST>:9000 \
+  -Dsonar.login=<SONAR_TOKEN>
