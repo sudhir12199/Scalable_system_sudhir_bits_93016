@@ -12,5 +12,3 @@ docker push sudhir/aceest_fitness:v1.1
 docker build -t aceest_fitness:v1.2 -f Dockerfile --build-arg APP_FILE=ACEest_Fitness-V1.2.py .
 docker tag aceest_fitness:v1.2 sudhir/aceest_fitness:v1.2
 docker push sudhir/aceest_fitness:v1.2
-
-# Repeat for all version tags (v1.2.1, v1.2.2, v1.2.3, v1.3)
