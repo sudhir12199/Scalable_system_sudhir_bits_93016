@@ -1,0 +1,12 @@
+
+
+Manual deploy commands (run on EC2 or via Jenkins SSH)
+
+docker pull sudhir/aceest_fitness:latest
+docker stop aceest_app || true
+docker rm aceest_app || true
+docker run -d --name aceest_app -p 5000:5000 sudhir/aceest_fitness:latest
+
+
+Verify endpoin
+curl -I http://<EC2-PUBLIC-IP>:5000
